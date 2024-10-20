@@ -13,10 +13,15 @@
 		6180CB952CC4A14F003A59C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6180CB932CC4A14F003A59C9 /* Main.storyboard */; };
 		6180CB972CC4A152003A59C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6180CB962CC4A152003A59C9 /* Assets.xcassets */; };
 		6180CB9A2CC4A152003A59C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6180CB982CC4A152003A59C9 /* LaunchScreen.storyboard */; };
+		6180CBAA2CC4A7FE003A59C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6180CBA92CC4A7FE003A59C9 /* LoginViewController.swift */; };
+		6180CBAC2CC4A824003A59C9 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6180CBAB2CC4A824003A59C9 /* LoginCoordinator.swift */; };
+		6180CBAE2CC4A83F003A59C9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6180CBAD2CC4A83F003A59C9 /* AppCoordinator.swift */; };
+		6180CBB02CC4BC7F003A59C9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6180CBAF2CC4BC7E003A59C9 /* WelcomeViewController.swift */; };
+		61C8C60D2CC57D500014BB11 /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C8C60C2CC57D500014BB11 /* CustomAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6180CB8A2CC4A14F003A59C9 /* TimerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6180CB8A2CC4A14F003A59C9 /* LoginViewCodeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginViewCodeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6180CB8D2CC4A14F003A59C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6180CB8F2CC4A14F003A59C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6180CB912CC4A14F003A59C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		6180CB962CC4A152003A59C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6180CB992CC4A152003A59C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6180CB9B2CC4A152003A59C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6180CBA92CC4A7FE003A59C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6180CBAB2CC4A824003A59C9 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		6180CBAD2CC4A83F003A59C9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		6180CBAF2CC4BC7E003A59C9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		61C8C60C2CC57D500014BB11 /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +50,7 @@
 		6180CB812CC4A14F003A59C9 = {
 			isa = PBXGroup;
 			children = (
-				6180CB8C2CC4A14F003A59C9 /* TimerProject */,
+				6180CB8C2CC4A14F003A59C9 /* LoginViewCodeProject  */,
 				6180CB8B2CC4A14F003A59C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +58,36 @@
 		6180CB8B2CC4A14F003A59C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6180CB8A2CC4A14F003A59C9 /* TimerProject.app */,
+				6180CB8A2CC4A14F003A59C9 /* LoginViewCodeProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6180CB8C2CC4A14F003A59C9 /* TimerProject */ = {
+		6180CB8C2CC4A14F003A59C9 /* LoginViewCodeProject  */ = {
 			isa = PBXGroup;
 			children = (
+				6180CBA92CC4A7FE003A59C9 /* LoginViewController.swift */,
 				6180CB8D2CC4A14F003A59C9 /* AppDelegate.swift */,
 				6180CB8F2CC4A14F003A59C9 /* SceneDelegate.swift */,
+				61C8C60C2CC57D500014BB11 /* CustomAlertViewController.swift */,
+				6180CBAF2CC4BC7E003A59C9 /* WelcomeViewController.swift */,
 				6180CB912CC4A14F003A59C9 /* ViewController.swift */,
+				6180CBAB2CC4A824003A59C9 /* LoginCoordinator.swift */,
+				6180CBAD2CC4A83F003A59C9 /* AppCoordinator.swift */,
 				6180CB932CC4A14F003A59C9 /* Main.storyboard */,
 				6180CB962CC4A152003A59C9 /* Assets.xcassets */,
 				6180CB982CC4A152003A59C9 /* LaunchScreen.storyboard */,
 				6180CB9B2CC4A152003A59C9 /* Info.plist */,
 			);
-			path = TimerProject;
+			path = "LoginViewCodeProject ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6180CB892CC4A14F003A59C9 /* TimerProject */ = {
+		6180CB892CC4A14F003A59C9 /* LoginViewCodeProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6180CB9E2CC4A152003A59C9 /* Build configuration list for PBXNativeTarget "TimerProject" */;
+			buildConfigurationList = 6180CB9E2CC4A152003A59C9 /* Build configuration list for PBXNativeTarget "LoginViewCodeProject" */;
 			buildPhases = (
 				6180CB862CC4A14F003A59C9 /* Sources */,
 				6180CB872CC4A14F003A59C9 /* Frameworks */,
@@ -82,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = TimerProject;
+			name = LoginViewCodeProject;
 			productName = TimerProject;
-			productReference = 6180CB8A2CC4A14F003A59C9 /* TimerProject.app */;
+			productReference = 6180CB8A2CC4A14F003A59C9 /* LoginViewCodeProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6180CB852CC4A14F003A59C9 /* Build configuration list for PBXProject "TimerProject" */;
+			buildConfigurationList = 6180CB852CC4A14F003A59C9 /* Build configuration list for PBXProject "LoginViewCodeProject" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6180CB892CC4A14F003A59C9 /* TimerProject */,
+				6180CB892CC4A14F003A59C9 /* LoginViewCodeProject */,
 			);
 		};
 /* End PBXProject section */
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6180CBAE2CC4A83F003A59C9 /* AppCoordinator.swift in Sources */,
+				6180CBAA2CC4A7FE003A59C9 /* LoginViewController.swift in Sources */,
 				6180CB922CC4A14F003A59C9 /* ViewController.swift in Sources */,
+				6180CBAC2CC4A824003A59C9 /* LoginCoordinator.swift in Sources */,
+				61C8C60D2CC57D500014BB11 /* CustomAlertViewController.swift in Sources */,
 				6180CB8E2CC4A14F003A59C9 /* AppDelegate.swift in Sources */,
 				6180CB902CC4A14F003A59C9 /* SceneDelegate.swift in Sources */,
+				6180CBB02CC4BC7F003A59C9 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,18 +313,22 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.jcls.TimerProject;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jcls.LoginViewCodeProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,25 +345,29 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.jcls.TimerProject;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jcls.LoginViewCodeProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6180CB852CC4A14F003A59C9 /* Build configuration list for PBXProject "TimerProject" */ = {
+		6180CB852CC4A14F003A59C9 /* Build configuration list for PBXProject "LoginViewCodeProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6180CB9C2CC4A152003A59C9 /* Debug */,
@@ -348,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6180CB9E2CC4A152003A59C9 /* Build configuration list for PBXNativeTarget "TimerProject" */ = {
+		6180CB9E2CC4A152003A59C9 /* Build configuration list for PBXNativeTarget "LoginViewCodeProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6180CB9F2CC4A152003A59C9 /* Debug */,
